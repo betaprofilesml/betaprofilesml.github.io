@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Beta Profiles</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      animation: backgroundAnimation 45s linear infinite;
+    }
+
+    @keyframes backgroundAnimation {
+      0% {
+        background-color: #FFC299; /* Pastel Orange */
+      }
+      20% {
+        background-color: #FFE4B3; /* Pastel Yellow */
+      }
+      40% {
+        background-color: #B3E5FF; /* Pastel Blue */
+      }
+      60% {
+        background-color: #C9E5FF; /* Pastel Sky Blue */
+      }
+      80% {
+        background-color: #FFD9F2; /* Pastel Pink */
+      }
+      100% {
+        background-color: #FFC299; /* Pastel Orange */
+      }
+    }
+
+    #container {
+      text-align: center;
+    }
+
+    h1 {
+      color: #333;
+      font-size: 56px;
+      font-weight: bold;
+      margin-bottom: 40px;
+    }
+
+    p {
+      color: #555;
+      font-size: 24px;
+      line-height: 1.5;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 24px 48px;
+      margin: 20px;
+      background-color: #1c1c1e;
+      color: #fff;
+      text-decoration: none;
+      font-size: 24px;
+      font-weight: bold;
+      text-transform: uppercase;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #2c2c2e;
+    }
+
+    .alert {
+      display: inline-block;
+      padding: 10px;
+      margin-bottom: 20px;
+      background-color: #f44336;
+      color: #fff;
+      font-weight: bold;
+      border-radius: 4px;
+    }
+
+    #links {
+      margin-top: 40px;
+    }
+
+    #links a {
+      display: inline-block;
+      margin: 10px;
+      color: #1c1c1e;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 20px;
+      transition: color 0.3s ease;
+    }
+
+    #links a:hover {
+      color: #4CAF50;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 36px;
+      }
+
+      p {
+        font-size: 18px;
+		word-wrap: break-word;
+      }
+
+      .button {
+        font-size: 18px;
+        padding: 18px 36px;
+      }
+
+      #links a {
+        font-size: 16px;
+      }
+    }
+  </style>
+  <script>
+    window.onload = function() {
+      alert("Please note that iOS 17 beta profiles are not and will never be available through this website - most likely only available through the iOS Settings app.");
+    };
+  </script>
+</head>
+<body>
+  <div id="container">
+    <h1>Welcome to <span style="color: #4CAF50;">betaprofiles.ml</span></h1>
+    <p>Get access to the latest <strong>iOS</strong> and <strong>iPadOS</strong> beta profiles.</p>
+	<p>Please note that iOS 17 beta profiles are not and will never available through this website - most likely only available through the iOS Settings app.</p>
+    <a class="button" href="http://betaprofiles.ml/profiles/iOS_16_Beta_Profile.mobileconfig">iOS 16</a>
+    <a class="button" href="http://betaprofiles.ml/profiles/iOS_iPadOS_16_Beta_Profile.mobileconfig">iPadOS 16</a>
+    <div id="links">
+      <a href="https://docs.betaprofiles.ml/">Docs</a>
+      <a href="https://twitter.com/betaprofilesml">Twitter</a>
+      <a href="https://discord.gg/QSPVmfDUGS">Discord</a>
+    </div>
+  </div>
+</body>
+</html>
